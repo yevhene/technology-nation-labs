@@ -1,0 +1,77 @@
+graph "Programming Domains" {
+  domains [label="Programming Domains"];
+
+
+  mobile [label="Mobile"];
+  domains -- mobile;
+
+  android [label="Android"];
+  mobile -- android;
+
+  java [label="Java" shape="box"];
+  android -- java;
+
+  ios [label="iOS"];
+  mobile -- ios;
+
+  swift [label="Swift" shape="box"];
+  ios -- swift;
+
+
+  web [label="Web"];
+  domains -- web;
+
+  backend [label="Back-end"]
+  web -- backend;
+
+  rails [label="Ruby on Rails" shape="parallelogram"];
+  backend -- rails;
+
+  ruby [label="Ruby" shape="box"];
+  rails -- ruby;
+
+  nodejs [label="node.js" shape="parallelogram"];
+  backend -- nodejs;
+
+  javascript [label="JavaScript" shape="box"];
+  nodejs -- javascript;
+
+  aspnet [label="ASP.NET" shape="parallelogram"];
+  backend -- aspnet;
+
+  csharp [label="C#" shape="box"];
+  aspnet -- csharp;
+
+  frontend [label="Front-end"];
+  web -- frontend;
+
+  htmlcss [label="HTML + CSS" shape="box"];
+  frontend -- htmlcss;
+
+  bootstrap [label="Bootstrap" shape="parallelogram"];
+  frontend -- bootstrap;
+  bootstrap -- htmlcss;
+
+  jquery [label="jQuery" shape="parallelogram"];
+  frontend -- jquery;
+  jquery -- javascript;
+
+  spa [label="Single-Page App"]
+  frontend -- spa;
+
+  react [label="React.js" shape="parallelogram"]
+  spa -- react;
+  react -- javascript;
+
+  angular [label="Angular.js" shape="parallelogram"]
+  spa -- angular;
+  angular -- javascript;
+
+  { rank=same; web mobile }
+
+  { rank=same; frontend backend android ios }
+
+  { rank=same; aspnet rails nodejs angular react jquery bootstrap }
+
+  { rank=same; csharp swift java ruby javascript htmlcss }
+}
