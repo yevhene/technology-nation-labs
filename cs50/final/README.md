@@ -28,4 +28,4 @@
 - Змінити джерело даних або додати додакові джерела (наприклад [data.gov.ua](http://data.gov.ua/));
 - Інтегрувати з іншими сервісами (наприклад погоди [forecast.io](https://developer.forecast.io/docs/v2));
 - Змінити стилі та іконки;
-- Вікористати додаткові JsvsScript бібліотеки (Наприклад щоб виводити інформацію у вкладках [jQueryUI/Tabs](https://jqueryui.com/tabs/)).
+- Використати додаткові JavaScript бібліотеки (Наприклад щоб виводити інформацію у вкладках [jQueryUI/Tabs](https://jqueryui.com/tabs/)).
