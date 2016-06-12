@@ -41,16 +41,17 @@ CS50 надзвичайно ефективний курс, що допомага
     - [Introduction to Bootstrap – A Tutorial](https://www.edx.org/course/introduction-bootstrap-tutorial-microsoft-dev203x-0)
     - [Programming and the Web for Beginners](https://www.coursera.org/learn/duke-programming-web)
 
-  - JavaScript
+  - Basic JavaScript
     - [Introduction to jQuery](https://www.edx.org/course/introduction-jquery-microsoft-dev208x-1)
     - [HTML5 Game Development](https://www.udacity.com/course/html5-game-development--cs255)
 
-  - React.js
-    - [React.js Fundamentals](http://reactjsprogram.teachable.com/courses/reactjsfundamentals)
+  - Advanced JavaScript
+    - React.js
+      - [React.js Fundamentals](http://reactjsprogram.teachable.com/courses/reactjsfundamentals)
 
-  - Angular.js
-    - [Learn AngularJS 1.X](https://www.codecademy.com/learn/learn-angularjs)
-    - [Shaping up with Angular.js](https://www.codeschool.com/courses/shaping-up-with-angular-js)
+    - Angular.js
+      - [Learn AngularJS 1.X](https://www.codecademy.com/learn/learn-angularjs)
+      - [Shaping up with Angular.js](https://www.codeschool.com/courses/shaping-up-with-angular-js)
 
 ### Mobile
 
