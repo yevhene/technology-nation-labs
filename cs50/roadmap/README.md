@@ -26,7 +26,7 @@ CS50 надзвичайно ефективний курс, що допомага
 
 ##### node.js
 
-[node.js for Beginners] https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_
+[node.js for Beginners](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_)
 
 ##### Ruby on Rails
 
