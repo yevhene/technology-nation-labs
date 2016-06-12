@@ -22,79 +22,55 @@ CS50 надзвичайно ефективний курс, що допомага
 
 ### Web
 
-#### Back-end
+- Back-end
+  - node.js
+    - [node.js for Beginners](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_)
+    - [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804)
 
-##### node.js
+  - Ruby on Rails
+    - [Agile Development Using Ruby on Rails](https://www.edx.org/xseries/agile-development-using-ruby-rails)
 
-[node.js for Beginners](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_)
+  - ASP.NET
+    - [Introduction in ASP.NET MVC](https://mva.microsoft.com/ru/training-courses/-asp-net-mvc-8322?l=eTXjmit7_304984382)
+    - [Programming with C#](https://prod-edx-mktg-edit.edx.org/course/programming-c-microsoft-dev204x-2)
 
-##### Ruby on Rails
+- Front-end
+  - Markup
+    - [Intro to HTML and CSS](https://www.udacity.com/course/html5-game-development--cs255)
+    - [JavaScript, HTML and CSS Web Development](https://www.edx.org/course/javascript-html-css-web-development-microsoft-dev211-1x)
+    - [Introduction to Bootstrap – A Tutorial](https://www.edx.org/course/introduction-bootstrap-tutorial-microsoft-dev203x-0)
+    - [Programming and the Web for Beginners](https://www.coursera.org/learn/duke-programming-web)
 
-[Agile Development Using Ruby on Rails](https://www.edx.org/xseries/agile-development-using-ruby-rails)
+  - JavaScript
+    - [Introduction to jQuery](https://www.edx.org/course/introduction-jquery-microsoft-dev208x-1)
+    - [HTML5 Game Development](https://www.udacity.com/course/html5-game-development--cs255)
 
-##### ASP.NET
+  - React.js
+    - [React.js Fundamentals](http://reactjsprogram.teachable.com/courses/reactjsfundamentals)
 
-[Introduction in ASP.NET MVC](https://mva.microsoft.com/ru/training-courses/-asp-net-mvc-8322?l=eTXjmit7_304984382)
-
-[Programming with C#](https://prod-edx-mktg-edit.edx.org/course/programming-c-microsoft-dev204x-2)
-
-#### Front-end
-
-##### Markup
-
-[Intro to HTML and CSS](https://www.udacity.com/course/html5-game-development--cs255)
-
-[JavaScript, HTML and CSS Web Development](https://www.edx.org/course/javascript-html-css-web-development-microsoft-dev211-1x)
-
-[Introduction to Bootstrap – A Tutorial](https://www.edx.org/course/introduction-bootstrap-tutorial-microsoft-dev203x-0)
-
-##### JavaScript
-
-[JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804)
-
-[Introduction to jQuery](https://www.edx.org/course/introduction-jquery-microsoft-dev208x-1)
-
-[Programming and the Web for Beginners](https://www.coursera.org/learn/duke-programming-web)
-
-[HTML5 Game Development](https://www.udacity.com/course/html5-game-development--cs255)
-
-##### React.js
-
-[React.js Fundamentals](http://reactjsprogram.teachable.com/courses/reactjsfundamentals)
-
-##### Angular.js
-
-[Learn AngularJS 1.X](https://www.codecademy.com/learn/learn-angularjs)
-
-[Shaping up with Angular.js](https://www.codeschool.com/courses/shaping-up-with-angular-js)
+  - Angular.js
+    - [Learn AngularJS 1.X](https://www.codecademy.com/learn/learn-angularjs)
+    - [Shaping up with Angular.js](https://www.codeschool.com/courses/shaping-up-with-angular-js)
 
 ### Mobile
 
-[Mobile Application Experiences Part 3: Building Mobile Apps](https://www.edx.org/course/mobile-application-experiences-part-3-mitx-21w-789-3x#!)
+- [Mobile Application Experiences Part 3: Building Mobile Apps](https://www.edx.org/course/mobile-application-experiences-part-3-mitx-21w-789-3x#!)
 
-#### Android
+- Android
+  - [Developing Android Apps](https://www.udacity.com/course/developing-android-apps--ud853)
+  - [From Java to Android for Beginners](https://www.edx.org/xseries/java-android-beginners)
+  - [Begin Programming: Build Your First Mobile Game](https://www.edx.org/xseries/java-android-beginners)
+  - [Introduction to Mobile Application Development using Android](https://www.edx.org/course/introduction-mobile-application-hkustx-comp107x-0)
 
-[Developing Android Apps](https://www.udacity.com/course/developing-android-apps--ud853)
-
-[From Java to Android for Beginners](https://www.edx.org/xseries/java-android-beginners)
-
-[Begin Programming: Build Your First Mobile Game](https://www.edx.org/xseries/java-android-beginners)
-
-[Introduction to Mobile Application Development using Android](https://www.edx.org/course/introduction-mobile-application-hkustx-comp107x-0)
-
-#### iOS
-
-[Intro to iOS App Development with Swift](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585)
-
-[Introduction To Swift Programming](https://www.coursera.org/learn/swift-programming)
+- iOS
+  - [Intro to iOS App Development with Swift](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585)
+  - [Introduction To Swift Programming](https://www.coursera.org/learn/swift-programming)
 
 ## Less comfortable
 
 Нажаль у курсу CS50 є недолік. Надзвичайно велика щільність матеріалу і висока складність завдань, навіть для ряду досвідчених ІТ-спеціалістів. Для того щоб кращє засвоїти або повторити базові концепції програмування, є ряд курсів що розглядають ці речі з їншої сторони, та в менш напруженному форматі.
 
-[Computer Science 101](https://www.coursera.org/course/cs101)
-
-[Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/)
-
-[An Introduction to Interactive Programming in Python](https://www.coursera.org/course/interactivepython1
+- [Computer Science 101](https://www.coursera.org/course/cs101)
+- [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/)
+- [An Introduction to Interactive Programming in Python](https://www.coursera.org/course/interactivepython1
 )
