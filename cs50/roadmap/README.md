@@ -24,6 +24,7 @@ CS50 надзвичайно ефективний курс, що допомага
 
 - Back-end
   - node.js
+    - [Server-side Development with NodeJS](https://www.coursera.org/learn/server-side-development)
     - [node.js for Beginners](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_)
     - [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804)
 
