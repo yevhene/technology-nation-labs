@@ -93,4 +93,3 @@ string card_type(long long number)
 
     return "UNKNOWN";
 }
-
