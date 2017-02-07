@@ -17,7 +17,7 @@ int main(int argc, string argv[])
     string str = get_string();
 
     printf("ciphertext: ");
-    for(int i = 0, len = strlen(str); i < len; i++)
+    for (int i = 0, len = strlen(str); i < len; i++)
     {
         printf("%c", rotate(str[i], delta));
     }
@@ -29,7 +29,7 @@ int main(int argc, string argv[])
 
 char rotate_in_scope(int c, int delta, int left_border, int right_border)
 {
-    if (c >= left_border && c <= right_border) 
+    if (c >= left_border && c <= right_border)
     {
         int range = right_border - left_border + 1;
         c += delta;
