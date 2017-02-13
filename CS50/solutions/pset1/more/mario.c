@@ -12,7 +12,7 @@ int main(void)
     }
     while (height < 0 || height > 23);
 
-    for(int i = 0; i < height; i++)
+    for (int i = 0; i < height; i++)
     {
         int hashes = i + 1;
         int spaces = height - hashes;

@@ -22,8 +22,8 @@ int main(void)
             isFirstLetter = false;
         }
     }
-    
+
     printf("\n");
-    
+
     return 0;
 }
