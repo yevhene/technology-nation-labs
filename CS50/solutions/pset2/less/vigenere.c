@@ -3,13 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
-int rotate(int c, int delta);
-
 bool prepare_key(string key, int keylen);
-
-int normalize_alpha(int c);
-
-char rotate_in_scope(int c, int delta, int left_border, int right_border);
+char rotate(char c, char delta);
 
 int main(int argc, string argv[])
 {
@@ -61,42 +56,24 @@ bool prepare_key(string key, int keylen)
             return false;
         }
             
-        key[i] = normalize_alpha(key[i]);
+        key[i] = toupper(key[i]) - 'A';
     }
 
     return true;
 }
 
-int rotate(int c, int delta)
+char rotate(char c, char delta)
 {
-    c = rotate_in_scope(c, delta, 'a', 'z');
-    c = rotate_in_scope(c, delta, 'A', 'Z');
-
-    return c;
-}
-
-int normalize_alpha(int c)
-{
-    if (c >= 'a' && c <= 'z')
+    if (c >= 'A' && c <= 'Z')
     {
-        return c - 'a';
+        return 'A' + (c -'A' + delta) % 26;
     }
-    else if (c >= 'A' && c <= 'Z')
+    else if (c >= 'a' && c <= 'z')
     {
-        return c - 'A';
+        return 'a' + (c - 'a' + delta) % 26;
     }
-
-    return c;
-}
-
-char rotate_in_scope(int c, int delta, int left_border, int right_border)
-{
-    if (c >= left_border && c <= right_border) 
+    else
     {
-        int range = right_border - left_border + 1;
-        c += delta;
-        c = ((c - left_border) % range) + left_border;
+        return c;
     }
-
-    return c;
 }

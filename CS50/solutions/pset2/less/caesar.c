@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <string.h>
 
-int rotate(int c, int delta);
+char rotate(char c, char delta);
 
 int main(int argc, string argv[])
 {
@@ -27,22 +27,18 @@ int main(int argc, string argv[])
     return 0;
 }
 
-char rotate_in_scope(int c, int delta, int left_border, int right_border)
+char rotate(char c, char delta)
 {
-    if (c >= left_border && c <= right_border) 
+    if (c >= 'A' && c <= 'Z')
     {
-        int range = right_border - left_border + 1;
-        c += delta;
-        c = ((c - left_border) % range) + left_border;
+        return 'A' + (c -'A' + delta) % 26;
     }
-
-    return c;
-}
-
-int rotate(int c, int delta)
-{
-    c = rotate_in_scope(c, delta, 'a', 'z');
-    c = rotate_in_scope(c, delta, 'A', 'Z');
-
-    return c;
+    else if (c >= 'a' && c <= 'z')
+    {
+        return 'a' + (c - 'a' + delta) % 26;
+    }
+    else
+    {
+        return c;
+    }
 }

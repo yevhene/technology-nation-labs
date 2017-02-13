@@ -1,0 +1,4 @@
+0. From 3x3 to 9x9 in any combinations, including non-square formations;
+1. Integer two dimensional array;
+2. 'greet' function;
+3. 'init', 'draw', 'move' and 'won'.

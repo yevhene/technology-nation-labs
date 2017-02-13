@@ -8,7 +8,7 @@ int main(void)
     string name = get_string();
 
     bool isFirstLetter = true;
-    for(int i = 0, len = strlen(name); i < len; i++)
+    for (int i = 0, len = strlen(name); i < len; i++)
     {
         if (name[i] == ' ')
         {
